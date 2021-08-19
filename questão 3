@@ -1,0 +1,41 @@
+int opcao;
+	Console.WriteLine("1. Cadastrar carro");
+    Console.WriteLine("2. Consultar carro por ano");
+	Console.WriteLine("3. Consultar carro por modelo");
+	Console.WriteLine("4. Consultar carro por cor");
+	Console.WriteLine("5. Exibir todos os carros cadastrados");
+	Console.WriteLine("6. Alterar algum dado de um carro");
+	Console.WriteLine("7. Excluir um carro");
+	Console.WriteLine("0. Sair");
+
+   Console.Write("\ndigite sua opção: ");
+   opcao = int.Parse(Console.ReadLine());
+
+	switch(opcao)
+	{
+		case 1:Console.WriteLine("\nvoce escolheu Cadastrar carro");
+		break;
+
+		case 2:Console.WriteLine("\nvoce escolheu Consultar carro por ano");
+		break;
+
+		case 3:Console.WriteLine("\nvoce escolheu Consultar carro por modelo");
+		break;
+
+		case 4:Console.WriteLine("\nvoce escolheu Consultar carro por cor");
+		break;
+
+		case 5:Console.WriteLine("\nvoce escolheu Exibir todos os carros cadastrados");
+		break;	
+
+		case 6:Console.WriteLine("\nvoce escolheu Alterar algum dado de um carro");
+		break;
+
+		case 7:Console.WriteLine("\nvoce escolheu Excluir um carro");
+		break;
+
+		case 0:Console.WriteLine("\nvoce escolheu Sair");
+		break;	
+	}
+    }
+}
